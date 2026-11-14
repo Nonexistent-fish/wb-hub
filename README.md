@@ -6,12 +6,12 @@
 > **凭证安全**：本项目是本地部署网关，运行时需要在本地读取用户自行导入的账号凭证，才能调用官方接口；凭证保存在用户自己的 `accounts/` 目录。项目不会把凭证上传到本项目的第三方服务器，也没有隐藏的凭证收集或上传逻辑。请立即关闭公网暴露，联系官方吊销全部 OAuth / 设备授权，确认旧 token 返回 `401` 后再重新授权。
 
 > [!WARNING]
-> **WorkBuddy 上游正在收紧对非官方客户端的识别与拦截。**
+> **WorkBuddy 上游正在收紧对非官方客户端的识别与拦截，以及相关项目的封禁。**
 >
 > - **封禁**：2026-10-23 下午起，非官方客户端的识别与拦截明显收紧。
-> - **维护者**：近期工作压力增大，无法保证及时更新与响应。
+> - **维护者**：2026-11-13 21:15，workbuddy2api-hub的原作者(github.com/ardeyouxipianyi)的整个GitHub账号被封禁，连带项目一波带走。加之其最近身体不适且目前正在走申诉流程，原版项目更新停滞。想要获取他的更多动向只能在群内联系他。
 > - **可用性**：上游可能随时进一步收紧，导致本项目不可用。
-> - **账号风险**：使用非官方客户端造成的风控、限流或封禁，由使用者自行承担。
+> - **账号风险**：使用非官方客户端造成的风控、限流或封禁，本工具不承担任何责任。
 >
 > **Upstream enforcement** tightened detection and blocking of unofficial clients from the afternoon of 2026-10-23. The maintainer is under increased workload and cannot guarantee timely updates or replies. The upstream may tighten further at any time; rate limits, account restrictions or bans caused by using an unofficial client are the user's responsibility.
 
