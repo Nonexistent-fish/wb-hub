@@ -67,6 +67,7 @@ This project is for protocol research and personal use only. Prefer the official
 
 ### 1. 本机运行
 
+- **如何下载**：Github网页端主页，点击code，然后点击Download ZIP，即可运行。你用git clone也可以，随你的便。
 - **Windows**：双击 `start-wb-proxy.bat`（静默后台运行 + 独立日志窗口）；如需前台控制台窗口，双击 `start-wb-proxy-visible.bat`。
 - **macOS / Linux**：双击 `start-wb-proxy.command` 或在终端执行 `./start-wb-proxy.sh [端口]`（默认 8788，需要 Python 3.9+）。
 - **局域网共享模式**：运行 `start-wb-proxy-lan.bat`（Windows）或 `./start-wb-proxy-lan.sh`（macOS/Linux），首次启动将自动生成高强度 API Key 并在控制台打印。
